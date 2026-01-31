@@ -6,5 +6,22 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# --- Heavy Artifacts (Located in Workspace Root) ---
+checkpoints/
+data/
+datasets/
+models/
+*.safetensors
+*.bin
+*.pth
+
+# --- Environment Folders ---
+.venv/
+training/.venv/
+evaluation/.venv/
+__pycache__/
+*.pyc
+
+# --- IDE Settings ---
+.vscode/
+.idea/

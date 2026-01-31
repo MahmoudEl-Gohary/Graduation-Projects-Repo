@@ -1,0 +1,12 @@
+[project]
+name = "evaluation-module"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "radeval",
+]
+
+[tool.uv.sources]
+radeval = { git = "https://github.com/jbdel/RadEval.git" }

@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "timestamp": "20260203_201913",
+    "model": "nvidia-reason-3b",
+    "metrics_used": [
+      "radcliq"
+    ],
+    "predictions_file": "/teamspace/studios/this_studio/Graduation-Projects-Repo/results/predictions/predictions_20260203_200349.json"
+  },
+  "metrics": {
+    "radcliq-v1": 0.4757
+  }
+}
